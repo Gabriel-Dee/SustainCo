@@ -11,8 +11,6 @@ function Blog() {
         cName="hero-mid"
         heroImg={BlogImg} /* This has been imported above*/
         title="About"
-        // text="Join a Green space in your local community Today !"
-        // btnText = "Join !"
         btnClass = "hide"
         url = "/"
       />

@@ -5,6 +5,7 @@ import Homecont from '../Components/Home/Homecont';
 import Newcommunities from "../Components/Home/NewCommunities/Newcommunities";
 import Footer from "../Components/Footer/Footer";
 
+
 function Home() {
   return (
     <>
@@ -14,9 +15,9 @@ function Home() {
         heroImg={HomeImg}
         title="Green spaces for sustainable and Resilient communities"
         text="Join a Green space in your local community Today !"
-        btnText = "Join !"
+        btnText = "Join Us"
         btnClass = "show"
-        url = "/"
+        url = "./Loginsignup"
       />
       <Homecont/>
       <Newcommunities/>
