@@ -7,7 +7,7 @@ In the project directory, you can run:
 ### `npm install`
 This is to install the neccesarry dependencies for the Application
 
-### `npm i react-typical`
+### `npm i react-router-dom`
 This is to install the typical dependencies
 
 ### `npm start`
