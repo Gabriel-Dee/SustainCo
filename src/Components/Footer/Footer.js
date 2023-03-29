@@ -5,24 +5,27 @@ function Footer() {
     <div className="footer">
       <div className="top">
         <div>
-          <h1> </h1>
-          <p> </p>
+          <h1>SustainCo</h1>
+          <p>Join the nearest community Today.</p>
         </div>
         <div>
           <a href="£">
             <i className="fa-brands fa-facebook-square"></i>
           </a>
           <a href="£">
-            <i className="fa-brands fa-facebook-square"></i>
+            <i className="fa-brands fa-instagram-square"></i>
           </a>
           <a href="£">
-            <i className="fa-brands fa-facebook-square"></i>
+            <i className="fa-brands fa-behance-square"></i>
           </a>
           <a href="£">
-            <i className="fa-brands fa-facebook-square"></i>
+            <i className="fa-brands fa-twitter-square"></i>
+          </a>
+          <a href="£">
+            <i className="fa-brands fa-youtube-square"></i>
           </a>
         </div>
-      </div>
+      </div> 
       <div className="bottom">
         <div>
             <h4>Projects</h4>

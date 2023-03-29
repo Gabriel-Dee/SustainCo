@@ -29,10 +29,10 @@ export const Menuitems = [
     cName: "nav-links",
     icon: "fa-solid fa-calendar-days",
   },
-  {
-    title: "Blog",
-    url: "/blog",
-    cName: "nav-links",
-    icon: "fa-solid fa-blog",
-  },
+  // {
+  //   title: "Blog",
+  //   url: "/blog",
+  //   cName: "nav-links",
+  //   icon: "fa-solid fa-blog",
+  // },
 ];
