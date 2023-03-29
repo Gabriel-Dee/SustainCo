@@ -1,6 +1,6 @@
 import Navbar from '../Components/Navbar/Navbar';
 import Hero from "../Components/Hero/Hero";
-import LsImg from '../Assets/f.jpg';
+import LsImg from '../Assets/c.jpg';
 
 function Loginsignup() {
   return (

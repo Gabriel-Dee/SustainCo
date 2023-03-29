@@ -16,6 +16,7 @@
 }
 .nav-logo {
     color:black;
+    margin-left: 2rem;
     font-size: 1.5rem;
     cursor: pointer;
 }
@@ -106,7 +107,7 @@ button:hover {
         transition: none;
     }
     button {
-        display: none;
+        display: block;
     }
     .nav-links-mobile {
         display: block;
@@ -123,6 +124,7 @@ button:hover {
     }
     .menu-icon {
         display: block;
+        margin-right: 1rem;
         cursor: pointer;
     }
     .menu-icon i {

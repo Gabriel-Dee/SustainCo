@@ -1,6 +1,6 @@
 import Navbar from '../Components/Navbar/Navbar';
 import Hero from "../Components/Hero/Hero";
-import ResrcImg from '../Assets/g.jpg';
+import ResrcImg from '../Assets/c.jpg';
 import Footer from "../Components/Footer/Footer";
 
 function Resources() {

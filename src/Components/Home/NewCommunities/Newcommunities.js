@@ -1,30 +1,30 @@
 import "./Newcommunities.css";
 import NewcommunitiesData from "./NewcommunitiesData";
-import NC1 from "../../../Assets/c.jpg";
-import NC2 from "../../../Assets/d.jpg";
-import NC3 from "../../../Assets/e.jpg";
+import NC1 from "../../../Assets/community.jpg";
+import NC2 from "../../../Assets/communityy.jpg";
+import NC3 from "../../../Assets/communityyy.jpg";
 
 function Newcommunities() {
   return (
     <div className="new-com">
-      <h1> </h1>
-      <p> </p>
+      <h1>New Communities</h1>
+      <p>Discover our vibrant new communities! </p>
       <div className="nc-card">
         <NewcommunitiesData 
         image={NC1} 
-        heading="" 
+        heading="The Ecogenius" 
         text="" 
         />
 
         <NewcommunitiesData 
         image={NC2} 
-        heading="" 
+        heading="Green Park" 
         text="" 
         />
 
         <NewcommunitiesData 
         image={NC3} 
-        heading="" 
+        heading="The Vibrants" 
         text="" 
         />
       </div>

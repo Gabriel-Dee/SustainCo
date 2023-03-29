@@ -1,6 +1,6 @@
 import Navbar from '../Components/Navbar/Navbar';
 import Hero from "../Components/Hero/Hero";
-import GcImg from '../Assets/e.jpg';
+import GcImg from '../Assets/community.jpg';
 import Footer from "../Components/Footer/Footer";
 import Newcommunities from '../Components/Home/NewCommunities/Newcommunities';
 
