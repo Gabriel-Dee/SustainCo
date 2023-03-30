@@ -5,7 +5,7 @@ function Aboutuss() {
     <div className="about-container">
       <h1>Our History</h1>
       <p>
-        SustainCo was founded in 2010 by a group of passionate environmentalists
+        SustainCo was founded in 2023 by a group of passionate environmentalists
         who recognized the urgent need to address climate change and
         environmental degradation. Starting as a small community group promoting
         the benefits of green spaces and resilient communities, SustainCo has
