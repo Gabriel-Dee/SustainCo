@@ -8,7 +8,7 @@ import HomecontData from "./Homecontdata";
 const home = () => {
   return (
     <div className="home">
-      <h1></h1>
+      {/* <h1></h1> */}
       <p></p>
       <HomecontData
         className="first-content"
