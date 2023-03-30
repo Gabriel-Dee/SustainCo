@@ -11,7 +11,7 @@ function Events() {
     <Hero
         cName="hero-mid"
         heroImg={EventsImg} /* This has been imported above*/
-        title="About"
+        title="Events"
         btnClass = "hide"
         url = "/"
       />

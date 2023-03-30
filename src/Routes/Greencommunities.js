@@ -13,7 +13,7 @@ function Greencommunities() {
       <Hero
         cName="hero-mid"
         heroImg={GcImg} /* This has been imported above*/
-        title="About"
+        title="Green Communities Centre"
         btnClass="hide"
         url="/"
       />
