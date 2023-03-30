@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { Menuitems } from "./Menuitems";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";;
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -33,7 +33,9 @@ class Navbar extends Component {
               </li>
             );
           })}
-          <button> Sign Up</button>
+           <Link to="../../Routes/Loginsignup">
+              <button>Sign Up</button>
+            </Link>
         </ul>
       </nav>
     );

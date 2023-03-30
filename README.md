@@ -7,8 +7,17 @@ In the project directory, you can run:
 ### `npm install`
 This is to install the neccesarry dependencies for the Application
 
+### `npm i @react-google-maps/api`
+This is to install the google maps api dependencies
+
+### `npm i @reach/combobox`
+This is to install the combobox dependencies
+
 ### `npm i react-router-dom`
-This is to install the typical dependencies
+This is to install the routing dependencies
+
+### `npm i use-places-autocomplete`
+This is to install the place locating dependencies
 
 ### `npm start`
 
