@@ -35,15 +35,18 @@ padding: .9rem 0 .2rem 0;
 }
 
 @media screen and (max-width: 850px) {
-    .trip{
+    .new-com{
         margin: 4rem 2rem;
     }
-    .tripcard{
+    .nc-card{
+        display: flex;
         flex-direction: column;
+        width: 100%;
     }
-    .t-card{
+    .n-card{
         width: 100%;
         margin-bottom: 1.5rem;
+        /* min-width: 50rem; */
     }
     
 }
