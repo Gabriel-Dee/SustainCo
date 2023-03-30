@@ -1,26 +1,19 @@
-import { useMemo } from "react";
-import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
-import "./Greencommunity.css";
+import React from "react";
 
-export default function Greencommunity() {
-    const { isLoaded } = useLoadScript({
-      googleMapsApiKey : process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
-    //   libraries: ["places"],
-    });
-  
-    if (!isLoaded) return <div>Loading .....</div>;
-    return <Map />;
-  }
+function Greencommunity() {
+  return (
+    <div className="green-com">
+      <h1>Locate Your Community</h1>
+      <p> </p>
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe width="1014" height="616" id="gmap_canvas" src="https://maps.google.com/maps?q=Google%20Headquarters&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
 
-  function Map() {
-    const centre = useMemo(() => ({ lat: 44, lng: -80 }), []);
-    return (
-        <GoogleMap
-            zoom={10}
-            center={{lat: 44, lng: 80}}
-            mapContainerClassName="map-container"
-        >
-            <Marker position={centre} />
-        </GoogleMap>
-    )
-  }
+          </iframe>
+          </div>
+          </div>
+    </div>
+  );
+}
+
+export default Greencommunity;
