@@ -11,7 +11,7 @@ function Loginsignup() {
         heroImg={LsImg} /* This has been imported above*/
         title="About"
         btnClass = "hide"
-        url = "/"
+        url = '/loginsignup'
       />
     </>
   );
