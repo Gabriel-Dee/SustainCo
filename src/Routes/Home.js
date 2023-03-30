@@ -17,7 +17,7 @@ function Home() {
         text="Join a Green space in your local community Today !"
         btnText = "Join Us"
         btnClass = "show"
-        url = "./Loginsignup"
+        url = "/register"
       />
       <Homecont/>
       <Newcommunities/>
