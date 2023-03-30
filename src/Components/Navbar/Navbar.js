@@ -31,9 +31,8 @@ class Navbar extends Component {
                   {item.title}
                 </Link>
               </li>
-            );
+            )
           })}
-          <button> Sign Up</button>
         </ul>
       </nav>
     );

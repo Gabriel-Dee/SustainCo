@@ -48,22 +48,9 @@
 .nav-links-mobile {
     display: none;
 }
-button {
-    background-color: rgb(14, 14, 13);
-    color: #fff;
-    border: none;
-    padding: 0.5rem 1rem;
-    white-space: nowrap;
-    font-size: 1.0rem;
-    font-weight: 600;
-    cursor: pointer;
-    border-radius: 0.3rem;
-    transition: all 0.2s ease-in-out;
-}
-button:hover {
-    background-color: rgb(21, 21, 21);
-    color: #fff;
-}
+
+
+
 .menu-icon {
     display: none;
 }
@@ -71,7 +58,10 @@ button:hover {
 @media screen and (max-width: 850px) {
     .navbar-items {
         z-index: 99;
+        position: relative;
     }
+
+  
     .nav-menu {
         display: flex;
         flex-direction: column;
@@ -105,9 +95,6 @@ button:hover {
     .nav-links:hover{
         background: rgb(102, 174, 95);
         transition: none;
-    }
-    button {
-        display: block;
     }
     .nav-links-mobile {
         display: block;
