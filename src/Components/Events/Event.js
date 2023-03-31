@@ -13,11 +13,7 @@ function Event() {
         <EventData
           image={Event1}
           heading="Gardening"
-          text="Resilient communities often promote gardening as a way to 
-          create green spaces and promote sustainability. 
-          These green spaces can provide a variety of benefits, 
-          such as improving air quality, reducing the urban heat island effect, 
-          and creating opportunities for social interaction and community building.
+          text="Moreover, gardening also encourages self-sufficiency and can be a source of fresh produce, which can improve food security and access to healthy foods. In addition, gardening can provide therapeutic benefits, helping to reduce stress and improve mental health. By promoting gardening and creating green spaces, resilient communities can enhance the quality of life for their residents and promote a more sustainable future for all.
           
           
           "
@@ -40,7 +36,8 @@ function Event() {
           or amusement to individuals or groups. It can include a wide range of activities,
            such as watching movies, playing games, listening to music, attending events, 
            and participating in sports. Entertainment is an important part of human culture, 
-          providing opportunities for relaxation, socialization, and personal growth."
+          providing opportunities for relaxation, socialization, personal growth and so many other beefits
+          that come from it."
         />
       </div>
     </div>

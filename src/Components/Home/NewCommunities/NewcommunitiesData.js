@@ -8,9 +8,11 @@ function NewCommunitiesData (props) {
             </div>
             <h4>{props.heading}</h4>
             <p>{props.text}</p>
+            <div>
             <button>
                 Visit
             </button>
+            </div>
         </div>
     )
 }

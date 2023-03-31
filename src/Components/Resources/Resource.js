@@ -15,7 +15,8 @@ function Resources() {
         heading="Community Leadership" 
         text="This book provides a comprehensive guide to developing l
         eadership skills within a community setting. It covers topics such as effective communication, 
-        conflict resolution, and community building strategies." 
+        conflict resolution, and community building strategies. a comprehensive guide to developing l
+        eadership skills within a community setting" 
         />
 
         <ResourcesData 
@@ -23,7 +24,7 @@ function Resources() {
         heading="Green Spaces by 2030" 
         text="This book explores the importance of creating and maintaining green spaces 
         in urban environments by the year 2030. It provides a roadmap for achieving this goal, 
-        including strategies for community engagement, urban planning, and sustainability." 
+        including strategies for community engagement, urban planning, and sustainability.It provides a roadmap for achieving this goal in so many ways." 
         />
 
         <ResourcesData 
