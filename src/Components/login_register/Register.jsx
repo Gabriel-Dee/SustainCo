@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import "./login_register.css";
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-import "./AuthDetails";
-import Navbar from "../Navbar/Navbar";
+import './login_register.css'
+import {getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+
 
 export const Register = () => {
   const [email, setEmail] = useState("");
@@ -23,7 +22,6 @@ export const Register = () => {
   };
   return (
     <>
-      <Navbar />
       <div className="apple">
         <div className="auth-form-container">
           <h2>Register</h2>

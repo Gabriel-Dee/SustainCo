@@ -9,13 +9,11 @@ import Blog from './Routes/Blog';
 import Loginsignup from './Routes/Loginsignup';
 import { Login } from './Components/login_register/Login';
 import { Register } from './Components/login_register/Register';
-import Authdetails from './Components/login_register/AuthDetails'
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/auth" element={<Authdetails/>}/>
         <Route path="/register" element={<Register/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/" element={<Home/>}/>

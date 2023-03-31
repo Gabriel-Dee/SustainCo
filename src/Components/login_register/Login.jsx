@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import './login_register.css'
-import './AuthDetails'
 import {auth} from '../../firebase';
 import {signInWithEmailAndPassword} from "firebase/auth";
+import Snackbar from "../Snackbar/Snackbar";
 
 export const Login = () => {
     const [email, setEmail] = useState('');
@@ -32,7 +32,7 @@ export const Login = () => {
                 <label htmlFor="password">password</label>
                 <input value={password} onChange={(e) => setPass(e.target.value)} type="password" placeholder="Password" id="password" name="password" />
                 <button type="submit">Log In</button>
-               
+               {/* <Snackbar message = 'Action Completed!' type = 'success'/> */}
             </form>
             <a href="/register">Don't have an account? Register here.</a>
         </div>
