@@ -17,7 +17,7 @@ This is to install the combobox dependencies
 This is to install the routing dependencies
 
 ### `npm i use-places-autocomplete`
-This is to install the place locating dependencies
+This is to install the place locating dependencies.
 
 ### `npm start`
 
