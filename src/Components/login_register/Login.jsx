@@ -32,7 +32,7 @@ export const Login = () => {
                 <label htmlFor="password">password</label>
                 <input value={password} onChange={(e) => setPass(e.target.value)} type="password" placeholder="Password" id="password" name="password" />
                 <button type="submit">Log In</button>
-               <Snackbar message = 'Action Completed!' type = 'success'/>
+               {/* <Snackbar message = 'Action Completed!' type = 'success'/> */}
             </form>
             <a href="/register">Don't have an account? Register here.</a>
         </div>
