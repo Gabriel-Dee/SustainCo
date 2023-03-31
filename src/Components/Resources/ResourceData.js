@@ -10,6 +10,9 @@ function ResourcesData(props) {
       </div>
       <h4>{props.heading}</h4>
       <p>{props.text}</p>
+      <button>
+        Download
+      </button>
     </div>
   );
 }

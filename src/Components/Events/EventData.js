@@ -8,6 +8,9 @@ function EventData (props) {
             </div>
             <h4>{props.heading}</h4>
             <p>{props.text}</p>
+            <button>
+                Get a Look
+            </button>
         </div>
     )
 }

@@ -17,7 +17,10 @@ function Event() {
           create green spaces and promote sustainability. 
           These green spaces can provide a variety of benefits, 
           such as improving air quality, reducing the urban heat island effect, 
-          and creating opportunities for social interaction and community building."
+          and creating opportunities for social interaction and community building.
+          
+          
+          "
         />
 
         <EventData

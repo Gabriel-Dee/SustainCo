@@ -11,7 +11,7 @@ function Resources() {
     <Hero
         cName="hero-mid"
         heroImg={ResrcImg} /* This has been imported above*/
-        title="About"
+        title="Resources"
         btnClass = "hide"
         url = "/"
       />
